@@ -3,8 +3,6 @@ Tic-Tac-Toe with bitwise operators.
 
 I was bored... And I realized that I had never done tic-tac-toe before. TADA 🎉
 
-I'm not a python developer.
-
 If you see any problem open new [issue](https://github.com/DazzGranto/tic-tac-toe-binary/issues).
 
 ## How to play
@@ -49,14 +47,14 @@ XXX --X X--
 ADD PLAYER TO POSITON AND IS POSITON EMPTY:
   
   ADD X OR O:
-    > I used logical OR (|)
+    > I used bitwise OR (|)
     
     010 | 001 == 011
     000 | 100 == 100
     011 | 010 == 011
     
   IS POSITON EMPTY:
-  > I used logical AND (&)
+  > I used bitwise AND (&)
     GRID = 001
     
     GRID & 001 == 001
